@@ -1,0 +1,201 @@
+-Homepage Test Cases-
+Page loading speed is acceptable.
+It takes the expected time for a user to log in with the correct credentials.
+Color coding and fonts of the homepage are standard.
+Controls work in different browsers.
+The carousel autoscrolls and the scrolling interval.
+A click on a CTA button/banner leads a user to the intended page.
+The links take a user to the right pages.
+Sign Up button, Log In button, and shopping cart are easy to locate.
+Is it loading along with the rest of the page or loads last in comparison to the other elements on the page.
+Can the rest of the content be viewed.
+Does it render the same way in different browsers and different screen resolutions.
+
+
+-Registration and Login Test Cases-
+
+Positive Test Cases
+A user clicks on the Register button – a registration form opens.
+A user enters registration details in the correct format – registration is successful.
+A user enters the correct credentials – they log into the account.
+A logged user clicks on Sign Out – the system logs a user off.
+A user clicks on Forgot Password – a password change form pops up.
+A user signs in with a new password entered – the system logs a user in.
+A user checks Remember Me in the checkbox – the system keeps them logged in for the next visit.
+A user can log in by pressing Enter after typing in the credentials.
+After entering a username, a person can switch to the password field with Tab.
+A user logs in with the same credentials in different browsers – login successful.
+
+
+Negative Test Cases
+A user tries to register with invalid credentials. Such cases should consider:
+A user tries to register with invalid credentials. Such cases should consider:
+Quantity of symbols allowed.
+Specific password requirements.
+Email format.
+Phone number format.
+A user enters incorrect credentials – can’t log in. The options that fall under this case:
+Incorrect login + incorrect password.
+Correct login + incorrect password.
+Incorrect login + correct password.
+One of the fields or both are empty.
+The account with the given username is not registered in the system – can’t log in.
+A user is not logged in – only features and areas for non-logged users are available.
+A user signs in with an old password entered after password change – can’t log in.
+A user signs in with a new password before passing verification via email – can’t log in.
+A user signs in with an unverified email address – can’t log in.
+A user signs in with a blocked email address – can’t log in.
+A user presses the Back button after logging out – remains logged out.
+
+Navigation Test Cases
+Search feature.
+Filters & sorting.
+Breadcrumbs.
+
+
+Search
+Check the search using a product name, brand name, or category name.
+Depending on the requirements, only direct matches or related products are displayed.
+Product image, name, and price are displayed in the search results.
+Results from all categories and subcategories are displayed if else is not specified.
+If a user specifies a category for search, only the results from a corresponding category are displayed.
+The most relevant products appear at the top of the list.
+Every page features different items. The items don’t repeat.
+If an item belongs to several categories, it appears on the list of search results only once.
+If a user enters an item name with a typo, a system displays a suggestion.
+
+
+Filtering and Sorting
+When a user applies a new filter, it doesn’t turn off a previous filter.
+The number of filters a user can apply is not limited.
+There is an immediate and obvious confirmation that filters have been applied.
+There is an overview of all applied filters at the top of the list.
+Users have a quick way to remove the chosen options.
+After a user applies the sorting feature, all items appear in the specified order.
+
+Breadcrumbs
+Breadcrumbs reflect the complete user journey.
+Each item of the hierarchy is separated from the rest.
+All items are clickable.
+The breadcrumbs are linked to the correct page.
+
+
+Shopping Cart Test Cases
+Add items to the cart and continue shopping
+If the user adds the same item to the cart while continuing to shop, the item count in the shopping cart should get incremented
+All items and their totals should be displayed in the cart
+Taxes as per location should be applied
+A user can add more items to the cart- total should reflect the same
+Update the contents added to the cart- total should reflect that too
+Remove items from the cart
+Proceed to checkout
+Calculate Shipping costs with different shipping options
+Apply coupons
+Don’t check out, close the site, and come back later. The site should retain the items in the cart
+
+
+Checkout Flow Test Cases
+There is a prompt to log in or register before completing the purchase.
+Customers can check out and pay as guest users without registration.
+Returning logged-in users can use pre-saved shipping and billing information.
+All types of supported payment methods work correctly.
+If a certain payment method comes with extra charges, the prices are correct.
+Sensitive information, including payment details, isn’t stored after the payment.
+An order confirmation page appears after a successful checkout.
+A user receives an order confirmation message via an email or text message.
+Order status is available in the account for registered users.
+After completing the payment, a user is able to continue navigating through the site.
+
+User Account Test Cases
+Users may need to update their personal information for different reasons. It can be the expiration of a payment card, change of the shipping address, a mistake made during registration, etc. You can see several examples of test cases below:
+
+A logged user can access the My Account area and related settings.
+A user can update and edit their account information, including contacts, shipping address, password, etc.
+A user can view and/or manage order status in the My Orders area.
+Users can view and repeat their previous orders.
+A user can log out using the corresponding button.
+
+After-Order Tests
+Check:
+
+Change the Order
+Cancel the Order
+Track the Order
+Returns
+
+
+UI Test Cases
+UI testing often goes hand in hand with UX, but we’ll discuss them separately. So, UI test cases cover all the graphical elements that let users interact with the coded features. Some of the UI items you can find on different websites are:
+
+buttons;
+
+links;
+
+checkboxes;
+
+radio buttons;
+
+dropdown lists;
+
+toggles;
+
+text fields;
+
+date pickers;
+
+search fields;
+
+tags;
+
+sliders;
+
+pagination;
+
+tooltips;
+
+accordions;
+
+input fields, etc.
+
+
+
+A user can enter their credentials in the signing and logging forms.
+Users can type texts in the text fields, such as comments, reviews, etc.
+All buttons are clickable and perform the programmed actions.
+Breadcrumbs, tags, and other navigational elements are clickable and linked to the correct pages.
+Toggles change their position after a click/slide, and each position is visually distinctive.
+The performance and design of UI elements don’t vary depending on a user’s device.
+This list is long and varies a lot depending on the requirements and pages. For example, there may be a set number of checkboxes a user is allowed to check. Thus, make sure to study requirements closely before writing test cases.
+
+UX Test Cases
+Recently, companies and online business owners try to focus more on usability and user experience. Although visual design plays its part in a brand image, it is significant to make sure that an e-commerce website is intuitive and convenient to use. The following test cases help with this task:
+
+Sorting functionality considers all the key parameters.
+If search results go beyond one page, it is easy to navigate between the pages.
+The font color and size make information easy to read.
+Product descriptions are relevant and free of mistakes.
+All category pages feature relevant products.
+A user has a good overview of the page, without pop-up elements covering much information.
+The design is consistent across different devices and screens, as well as the branding in general.
+These are only some of the core UX test cases. This type of testing requires thorough user research and sometimes business analysis for efficiency improvements.
+
+Performance Test Cases
+Last but not least, it is essential to test website performance. This aspect becomes crucial during the holiday shopping season and big marketing campaigns. Still, it is not something to neglect on regular days under average load either. For this, a QA team should check, in particular:
+
+Page loading speed.
+Traffic load tolerance for different conditions.
+Uptime.
+Throughput.
+Error messages.
+The cases for performance testing are highly individual. The configurations and results always depend on the expected average number of users and business goals in general.
+
+Test Cases for E-Commerce Application
+ One of the aspects that will differ considerably is app performance. It will require adding some additional scenarios to the test suite. Here are several examples:
+
+An application should be available at different battery conditions, including charging.
+The application should work seamlessly when a user switches between Wi-Fi and mobile data.
+A user should be able to log in from different devices simultaneously.
+The information from different devices should synchronize momentarily.
+When a user switches to a banking app to confirm a purchase, an e-commerce app should continue running in the background without resetting the last actions.
+A user should be able to log in when making a call via any messenger in the background.
+The application should not cause device heating or battery draining.
